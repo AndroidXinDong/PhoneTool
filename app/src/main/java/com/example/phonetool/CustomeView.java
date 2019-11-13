@@ -11,7 +11,11 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
+/**
+ * 这个类是验证生长树形图的，因为树形图不生长 所以建了这个类 看看TreeView是哪里不正
+ */
 public class CustomeView extends View {
+
     private Paint mPaint;
     public CustomeView(Context context) {
         this(context,null);
